@@ -12,6 +12,13 @@
 		2D1FEBB122EC59A90073152E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FEBAF22EC59A90073152E /* Main.storyboard */; };
 		2D1FEBB322EC59AA0073152E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FEBB222EC59AA0073152E /* Assets.xcassets */; };
 		2D1FEBB622EC59AA0073152E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FEBB422EC59AA0073152E /* LaunchScreen.storyboard */; };
+		2D1FEBBF22EC5A2C0073152E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1FEBBE22EC5A2C0073152E /* AudioToolbox.framework */; };
+		2D1FEBC122ED8F1B0073152E /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FEBC022ED8F1B0073152E /* quiz.csv */; };
+		2D1FEBC322ED902B0073152E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FEBC222ED902B0073152E /* StartViewController.swift */; };
+		2D1FEBC522ED937B0073152E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FEBC422ED937B0073152E /* QuestionViewController.swift */; };
+		2D1FEBC722EDC3520073152E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FEBC622EDC3520073152E /* ResultViewController.swift */; };
+		2D1FEBC922EDCD340073152E /* QuestionDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FEBC822EDCD340073152E /* QuestionDataManager.swift */; };
+		2D1FEBCB22EF23A10073152E /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FEBCA22EF23A10073152E /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		2D1FEBB222EC59AA0073152E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1FEBB522EC59AA0073152E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D1FEBB722EC59AA0073152E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1FEBBE22EC5A2C0073152E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2D1FEBC022ED8F1B0073152E /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		2D1FEBC222ED902B0073152E /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		2D1FEBC422ED937B0073152E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		2D1FEBC622EDC3520073152E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		2D1FEBC822EDCD340073152E /* QuestionDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDataManager.swift; sourceTree = "<group>"; };
+		2D1FEBCA22EF23A10073152E /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1FEBBF22EC5A2C0073152E /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,7 @@
 			children = (
 				2D1FEBAA22EC59A90073152E /* ClassicalMusicQuiz */,
 				2D1FEBA922EC59A90073152E /* Products */,
+				2D1FEBBD22EC5A2C0073152E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +76,22 @@
 				2D1FEBB222EC59AA0073152E /* Assets.xcassets */,
 				2D1FEBB422EC59AA0073152E /* LaunchScreen.storyboard */,
 				2D1FEBB722EC59AA0073152E /* Info.plist */,
+				2D1FEBC022ED8F1B0073152E /* quiz.csv */,
+				2D1FEBC222ED902B0073152E /* StartViewController.swift */,
+				2D1FEBC422ED937B0073152E /* QuestionViewController.swift */,
+				2D1FEBC622EDC3520073152E /* ResultViewController.swift */,
+				2D1FEBC822EDCD340073152E /* QuestionDataManager.swift */,
+				2D1FEBCA22EF23A10073152E /* AnswerViewController.swift */,
 			);
 			path = ClassicalMusicQuiz;
+			sourceTree = "<group>";
+		};
+		2D1FEBBD22EC5A2C0073152E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D1FEBBE22EC5A2C0073152E /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +155,7 @@
 				2D1FEBB622EC59AA0073152E /* LaunchScreen.storyboard in Resources */,
 				2D1FEBB322EC59AA0073152E /* Assets.xcassets in Resources */,
 				2D1FEBB122EC59A90073152E /* Main.storyboard in Resources */,
+				2D1FEBC122ED8F1B0073152E /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1FEBC722EDC3520073152E /* ResultViewController.swift in Sources */,
+				2D1FEBCB22EF23A10073152E /* AnswerViewController.swift in Sources */,
 				2D1FEBAE22EC59A90073152E /* ViewController.swift in Sources */,
 				2D1FEBAC22EC59A90073152E /* AppDelegate.swift in Sources */,
+				2D1FEBC922EDCD340073152E /* QuestionDataManager.swift in Sources */,
+				2D1FEBC522ED937B0073152E /* QuestionViewController.swift in Sources */,
+				2D1FEBC322ED902B0073152E /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +319,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TBLW86Z455;
+				DEVELOPMENT_TEAM = 7E7MWG325B;
 				INFOPLIST_FILE = ClassicalMusicQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mako-icloud.yukiko.ClassicalMusicQuiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mako.aki.JapaneseEnglishCountryQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +337,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TBLW86Z455;
+				DEVELOPMENT_TEAM = 7E7MWG325B;
 				INFOPLIST_FILE = ClassicalMusicQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mako-icloud.yukiko.ClassicalMusicQuiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mako.aki.JapaneseEnglishCountryQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
