@@ -2,9 +2,6 @@
 //  StartViewController.swift
 //  ClassicalMusicQuiz
 //
-//  Created by Yuki Kimura on 2019/07/28.
-//  Copyright © 2019 Yuki Kimura. All rights reserved.
-//
 
 import UIKit
 
