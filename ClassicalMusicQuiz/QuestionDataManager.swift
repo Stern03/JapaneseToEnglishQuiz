@@ -2,9 +2,6 @@
 //  QuestionData.swift
 //  ClassicalMusicQuiz
 //
-//  Created by Aki Kimura on 2019/07/28.
-//  Copyright © 2019 Yuki Kimura. All rights reserved.
-//
 import Foundation
 
 class QuestionData {

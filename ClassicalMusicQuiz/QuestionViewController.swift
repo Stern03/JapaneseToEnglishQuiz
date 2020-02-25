@@ -2,9 +2,6 @@
 //  QuestionViewController.swift
 //  ClassicalMusicQuiz
 //
-//  Created by Aki Kimura on 2019/07/28.
-//  Copyright © 2019 Yuki Kimura. All rights reserved.
-//
 
 import UIKit
 import AudioToolbox
@@ -74,7 +71,6 @@ class QuestionViewController: UIViewController {
     func goNextQuestionWithCorrectAnimation() {
         AudioServicesPlayAlertSound(1022)
         UIView.animate(withDuration: 2.0, animations: {
-         //   self.correctImageView.alpha = 1.0
         }) { (Bool) in
             self.goNextQuestion(answer: "正解")
         }
@@ -82,7 +78,6 @@ class QuestionViewController: UIViewController {
     
     func goNextQuestionWithIncorrectAnimation() {
         UIView.animate(withDuration: 2.0, animations: {
-          //  self.incorrectImageView.alpha = 1.0
         }) { (Bool) in
             self.goNextQuestion(answer: "残念...")
         }

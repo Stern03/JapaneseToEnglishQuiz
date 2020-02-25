@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D1FEBAC22EC59A90073152E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FEBAB22EC59A90073152E /* AppDelegate.swift */; };
-		2D1FEBAE22EC59A90073152E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1FEBAD22EC59A90073152E /* ViewController.swift */; };
 		2D1FEBB122EC59A90073152E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FEBAF22EC59A90073152E /* Main.storyboard */; };
 		2D1FEBB322EC59AA0073152E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FEBB222EC59AA0073152E /* Assets.xcassets */; };
 		2D1FEBB622EC59AA0073152E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1FEBB422EC59AA0073152E /* LaunchScreen.storyboard */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		2D1FEBA822EC59A90073152E /* ClassicalMusicQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicalMusicQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1FEBAB22EC59A90073152E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D1FEBAD22EC59A90073152E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D1FEBB022EC59A90073152E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D1FEBB222EC59AA0073152E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1FEBB522EC59AA0073152E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				2D1FEBAB22EC59A90073152E /* AppDelegate.swift */,
-				2D1FEBAD22EC59A90073152E /* ViewController.swift */,
 				2D1FEBAF22EC59A90073152E /* Main.storyboard */,
 				2D1FEBB222EC59AA0073152E /* Assets.xcassets */,
 				2D1FEBB422EC59AA0073152E /* LaunchScreen.storyboard */,
@@ -168,7 +165,6 @@
 			files = (
 				2D1FEBC722EDC3520073152E /* ResultViewController.swift in Sources */,
 				2D1FEBCB22EF23A10073152E /* AnswerViewController.swift in Sources */,
-				2D1FEBAE22EC59A90073152E /* ViewController.swift in Sources */,
 				2D1FEBAC22EC59A90073152E /* AppDelegate.swift in Sources */,
 				2D1FEBC922EDCD340073152E /* QuestionDataManager.swift in Sources */,
 				2D1FEBC522ED937B0073152E /* QuestionViewController.swift in Sources */,

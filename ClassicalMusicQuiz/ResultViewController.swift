@@ -2,9 +2,6 @@
 //  ResultViewController.swift
 //  ClassicalMusicQuiz
 //
-//  Created by Aki Kimura on 2019/07/28.
-//  Copyright © 2019 Yuki Kimura. All rights reserved.
-//
 
 import UIKit
 
@@ -31,8 +28,8 @@ class ResultViewController: UIViewController {
         
         if correctCount < 3 {
             correctRankImage.image = UIImage(named: "me")
-            //correctRankLabel.font = UIFont.systemFont(ofSize: 20)
             correctRankLabel.text = "また次回！"
+            
         } else if correctCount < 5 {
             correctRankImage.image = UIImage(named: "tsubomi")
             correctRankLabel.text = "Good"
